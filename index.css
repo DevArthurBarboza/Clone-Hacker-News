@@ -1,7 +1,13 @@
 body {
     margin-top:0px;
     font-family: sans-serif;
-    font-size: 1.3rem;
+    
+}
+
+#below{
+    font-size: 0.9em;   
+    font-weight: 600; 
+    margin-top: 0,1em;
 }
 
 html{
@@ -29,6 +35,7 @@ h3 {
 section {
     margin-bottom: 2.5em;
     margin-top: 0px;
+    font-size: 1.4em;
 }
 
 address {
@@ -40,12 +47,15 @@ address {
     margin-top:0.5em;
 }
 
-
+li{
+    list-style-type:circle;
+    list-style-position: inside;
+}
 
 p {
-    line-height: 1.7em;
+    line-height: 1.7em;  
+    margin-bottom: 0px;
     
-    margin-bottom: none;
     
 }
 
@@ -61,8 +71,11 @@ summary {
 }
 
 a {
-    font-size: 0.9em;
     color: black;
+}
+
+li {
+    font-size: 0.9em;
 }
 
 footer {
@@ -71,6 +84,8 @@ footer {
 }
 main{
     margin-top: 2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
     text-align: justify;
     margin-bottom: 3em;
 }
