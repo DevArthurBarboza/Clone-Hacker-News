@@ -1,0 +1,32 @@
+html{
+    margin : 0px;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(200, 199, 199);
+}
+
+header{
+    background-color:whitesmoke;
+    margin-top:-30px;
+    padding-top:15px;
+}
+
+.fc{
+    display:flex;
+    text-align:center;
+    justify-content: space-around;
+}
+
+.fc>p{
+    background-color: yellow; 
+    flex-flow:row wrap;
+    text-align:center;
+    border: solid 2px black;
+    flex: 1,1,90px;
+    padding:5px;
+    margin:3px;
+}
