@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Academia</title>
     <link rel="stylesheet" href="/css/loja.css">
+    
 </head>
 <body>
     <header>
@@ -27,23 +28,54 @@
     </main>
 
     <form action = "chocolate"id = "form_race">
-        <p>
+        <div>
             <label for="name">Name</label>
             <input type="text" name = "name" id = "name" required>
             <label for="last">Last Name</label>
             <input type="text" name = "lastName" id = "last" required>
-        </p>
-        <p>
-            <label for="race">Select your race</label>
-            <select name = "race">
-                <option  value = "funRun">Fun Run 5k </option>
-                <option  value = "halfRun"> Half Marathon</option>
-                <option  value = "fullRace"> Full Marathon</option>
-                </select>
-        </p>    
+        </div>
+        <div>
+            <label for = "race">Select your race </label>
+            <div>
+                <p>
+                <input id = "funRun" type = "radio" name="race" value = "funRun" required>
+                <label for="funRun">Fun Run 5k</label>
+            </p>
+            <p>
+                <input id = "half" type = "radio" name="race" value = "halfRun" required>
+                <label for="half">Half Marathon</label>
+            </p>
+            <p>
+                <input type = "radio" id = "full" name="race" value = "fullRace" required>
+                <label for="full">Full Marathon</label>
+            </p>
+            </div>
+        </div>    
+
+        <div>
+            <p>
+            <label for="password">Password</label>
+            <input type="password" id = "password" name="password" required>
+            </p>
+            <p id = "margin-left">
+                <label for="email">Email</label>
+                <input type="email" name = "email" id = "email" required>
+            </p>
+
+        </div>
         <button>Submit</button>
 
     </form>
+<footer>
+    <p>
+        Developed by Arthur Gonçalves Barboza
+    </p>
+    <p>
+     Practices and Information Technology Center  <br>
+     Unifil 2021
+    </p>
+    
 
+</footer>
 </body>
 </html>
