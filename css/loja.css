@@ -1,22 +1,28 @@
 html{
     margin : 0px;
     padding:0px;
-    font-family: sans-serif;
+    font-family: Verdana;
     font-size: 18px;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 body{
     margin: 0px;
     padding:0px;
     text-align: center;
-    background-color: rgb(200, 199, 199);
+    background-color: #CADBC0;
 }
 
 header{
-    background-color:whitesmoke;
+    background-color:#CBB3BF;
     margin-top:-30px;
     padding-top:15px;
     margin-bottom:0px;
+    padding-bottom:15px;
+    color:white;
 }
 
 .fc{
@@ -45,7 +51,7 @@ h2{
 margin-bottom:10px;
 }
 
-#margin-left > label,input{
+#margin-left label,input{
     margin-left:35px;
 }
 
@@ -55,10 +61,6 @@ footer{
     font-weight: 900;
     background-color:azure;
     margin-bottom:-1000px;
-}
-
-#name{
-    margin-right:-40px;
 }
 
 .test{
@@ -76,4 +78,40 @@ footer{
     display:inherit;
     width: inherit;
     
+}
+
+#form_race{
+    background-color:#3C3C3C;
+    display:inline-block;
+    border-radius:5px;
+    width:30%;
+    padding-bottom:5px;
+    margin-top:30px;
+    color:white;
+    font-weight:600;
+}
+
+#form_race button{
+    border-radius:10px;
+    padding:0px 10px;
+    border:0px;
+    font-size:17px;
+    height:30px;
+    background-color:thistle;
+    color:black;
+    transition: 0.3s;
+}
+
+
+#form_race button:hover{
+    background-color:rgb(165, 137, 165);
+    color:rgb(107, 107, 107);
+}
+.name {
+    display:flex;
+    justify-content:space-around;
+}
+
+#firstName{
+    margin-right:-13px;
 }
